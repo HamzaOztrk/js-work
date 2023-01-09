@@ -1,0 +1,207 @@
+// let a = "hello my name is hamza"
+// console.log(a);
+
+// const sayı = 20
+// console.log(sayı);
+// console.log(typeof sayı);
+
+// const sayı1= "33"
+// console.log(sayı1);
+// console.log(typeof sayı1);
+
+// const s1 = "hello"
+// const s2 = "fs13"
+// console.log(s1 + s2);
+
+// const n1 = "5"
+// const n2 = 10
+// console.log(n1 + n2);
+
+
+// let dil = "javascript"
+// console.log(dil);
+
+// dil = "java"
+// console.log(dil);
+
+// dil = true
+// console.log(typeof dil);
+
+// dil = 3.14
+// console.log(typeof dil);
+
+// let num1 = 5
+// let num2 = 4
+// let result = num1 + num2
+// console.log(++result);
+// console.log(result);
+
+// const cola = 20
+// const gumm = 5
+// const biscuits = 15
+// const totalprice = cola + gumm + biscuits
+// console.log("TOTAL PRİCE:", totalprice);
+// console.log(totalprice + "TL");
+
+// const firstname = "ahmet"
+// const lastname = "ozturk"
+// const name = firstname + " " + lastname
+// console.log(name);
+
+// const a1 = 5,
+//     a2 = 4,
+//     a3 = "three"
+// console.log(a1 + a2);
+// console.log(a1 - a2);
+// console.log(a2 - a3);
+
+// const yearofbirth = 1920;
+// const name1 = "john";
+// console.log(name1 + " is " + (2022 - yearofbirth) + " years old");
+// console.log(`${name1} is ${2022 - yearofbirth} years old`);
+
+// const rasgele = Math.round(Math.random() * 100)
+// console.log(rasgele);
+
+// let b = 5
+// b++
+// console.log(b++);
+// y = b + 5
+// console.log(--y);
+
+// const nu1 = 3
+// console.log(nu1 == 3);
+// console.log(nu1 === 3);
+// console.log(nu1 === "3");
+
+// const nu2 = "3"
+// console.log(nu1 == nu2);
+// console.log(nu1 != nu2);
+
+// const v1 = true
+// const v2 = false
+// console.log(v1 || v2);
+// console.log(v1 && v2);
+
+// const num = Number(prompt("please enter a number:"))
+// if (num > 0) {
+//     console.log(`${num} is positive`);
+// }else if (num < 0) {
+//     console.log(`${num} is negative`);
+// }else {
+//     console.log(`${num} is equal to zero`);
+// }
+
+
+// const n1 = +prompt("number1:")
+// const n2 = +prompt("number2:")
+// const n3 = +prompt("number3:")
+
+//* 1.yöntem
+// if(n1 >= n2 &&  n1 >=n3 ){
+//     console.log(`${n1} is biggest`);
+// }else if (n2 >= n1 && n2 >= n3){
+//     console.log(`${n2} is biggest`);
+// }else if(n3 >=n1 && n3 >= n2){
+//     console.log(`${n3} is biggest`);
+// }
+
+//* 2. yöntem
+// let biggest = n1
+
+// if (n2 > biggest) {
+//     biggest = n2
+// }
+
+// if (n3 > biggest) {
+//     biggest = n3
+// }
+
+// console.log(`${biggest} is biggest`);
+
+
+// const s1 = Number(prompt("1. sayiyi giriniz"))
+// const islem = prompt("islemi giriniz : +, -, *, /")
+// const s2 = +prompt("2. sayiyi giriniz")
+
+// let sonuc = 0
+
+// switch (islem) {
+//     case "+":
+//         sonuc = s1 + s2
+//         break
+//     case "-":
+//         sonuc = s1 - s2
+//         break
+//     case "*":
+//         sonuc = s1 * s2
+//         break
+//     case "/":
+//         sonuc = s1 / s2
+//         break
+//     default:
+//         alert("yanlis islem girisi")
+//         break            
+// }
+// console.log(`${s1} ${islem} ${s2} = ${sonuc}`);
+
+// const day = prompt("gunu girin")
+
+// switch(day){
+//     case "pazartesi":
+//     console.log("InClass");
+//     break
+
+//     case "salı":
+//     console.log("InClass");
+//     break
+
+//     case "çarşamba":
+//     console.log("InClass");
+//     break
+    
+//     case "perşembe":
+//     console.log("InClass");
+//     break
+
+//     case "cuma":
+//     console.log("TeamWork");
+//     break
+
+//     case "cumartesi":
+//     console.log("InClass + workshop");
+//     break
+
+//     case "pazar":
+//     console.log("Self-Study");
+//     break
+
+//     default:
+//         console.log("yanlış gün verildi");
+// }
+
+// const grade = +prompt("lütfen notunuzu girin")
+// const result = 
+//     grade >= 50
+//     ? `you are succesful with ${grade}`
+//     : `you are failed with ${grade}`
+
+// console.log(result);
+
+// const salary = +prompt("maaşınızı girin")
+// const zam1 = salary * 1.5
+// const zam2 = salary * 1.10
+// if(salary > 5500){
+//     console.log(zam1);
+// }else if(salary < 5500 ) {
+//     console.log(zam2);
+// }
+
+
+// const gelir = +prompt("gelirinizi girin")
+// const gider = +prompt("giderinizi yazın")
+// const hesap =
+//     gelir >= (gider + 5500)
+//         ? alert("kredi alır")
+//         : alert("kredi alamaz")
+
