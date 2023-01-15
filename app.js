@@ -1,22 +1,22 @@
 // let a = "hello my name is hamza"
 // console.log(a);
-
+// **************************************************
 // const sayı = 20
 // console.log(sayı);
 // console.log(typeof sayı);
-
+// **************************************************
 // const sayı1= "33"
 // console.log(sayı1);
 // console.log(typeof sayı1);
-
+// **************************************************
 // const s1 = "hello"
 // const s2 = "fs13"
 // console.log(s1 + s2);
-
+// **************************************************
 // const n1 = "5"
 // const n2 = 10
 // console.log(n1 + n2);
-
+// **************************************************
 
 // let dil = "javascript"
 // console.log(dil);
@@ -29,46 +29,46 @@
 
 // dil = 3.14
 // console.log(typeof dil);
-
+// **************************************************
 // let num1 = 5
 // let num2 = 4
 // let result = num1 + num2
 // console.log(++result);
 // console.log(result);
-
+// **************************************************
 // const cola = 20
 // const gumm = 5
 // const biscuits = 15
 // const totalprice = cola + gumm + biscuits
 // console.log("TOTAL PRİCE:", totalprice);
 // console.log(totalprice + "TL");
-
+// **************************************************
 // const firstname = "ahmet"
 // const lastname = "ozturk"
 // const name = firstname + " " + lastname
 // console.log(name);
-
+// **************************************************
 // const a1 = 5,
 //     a2 = 4,
 //     a3 = "three"
 // console.log(a1 + a2);
 // console.log(a1 - a2);
 // console.log(a2 - a3);
-
+// **************************************************
 // const yearofbirth = 1920;
 // const name1 = "john";
 // console.log(name1 + " is " + (2022 - yearofbirth) + " years old");
 // console.log(`${name1} is ${2022 - yearofbirth} years old`);
-
+// **************************************************
 // const rasgele = Math.round(Math.random() * 100)
 // console.log(rasgele);
-
+// **************************************************
 // let b = 5
 // b++
 // console.log(b++);
 // y = b + 5
 // console.log(--y);
-
+// **************************************************
 // const nu1 = 3
 // console.log(nu1 == 3);
 // console.log(nu1 === 3);
@@ -77,12 +77,12 @@
 // const nu2 = "3"
 // console.log(nu1 == nu2);
 // console.log(nu1 != nu2);
-
+// **************************************************
 // const v1 = true
 // const v2 = false
 // console.log(v1 || v2);
 // console.log(v1 && v2);
-
+// **************************************************
 // const num = Number(prompt("please enter a number:"))
 // if (num > 0) {
 //     console.log(`${num} is positive`);
@@ -92,7 +92,7 @@
 //     console.log(`${num} is equal to zero`);
 // }
 
-
+// **************************************************
 // const n1 = +prompt("number1:")
 // const n2 = +prompt("number2:")
 // const n3 = +prompt("number3:")
@@ -118,7 +118,7 @@
 // }
 
 // console.log(`${biggest} is biggest`);
-
+// **************************************************
 
 // const s1 = Number(prompt("1. sayiyi giriniz"))
 // const islem = prompt("islemi giriniz : +, -, *, /")
@@ -144,7 +144,7 @@
 //         break            
 // }
 // console.log(`${s1} ${islem} ${s2} = ${sonuc}`);
-
+// **************************************************
 // const day = prompt("gunu girin")
 
 // switch(day){
@@ -179,7 +179,7 @@
 //     default:
 //         console.log("yanlış gün verildi");
 // }
-
+// **************************************************
 // const grade = +prompt("lütfen notunuzu girin")
 // const result = 
 //     grade >= 50
@@ -187,7 +187,7 @@
 //     : `you are failed with ${grade}`
 
 // console.log(result);
-
+// **************************************************
 // const salary = +prompt("maaşınızı girin")
 // const zam1 = salary * 1.5
 // const zam2 = salary * 1.10
@@ -197,11 +197,115 @@
 //     console.log(zam2);
 // }
 
-
+// **************************************************
 // const gelir = +prompt("gelirinizi girin")
 // const gider = +prompt("giderinizi yazın")
 // const hesap =
 //     gelir >= (gider + 5500)
 //         ? alert("kredi alır")
 //         : alert("kredi alamaz")
+// **************************************************
+// const n = +prompt("enter a number")
+// let sum = 0
+// for (let i = 1; i <= n; i++){
+//     sum = sum + i
+// }
+// console.log(sum);
+
+// **************************************************
+// const num = Number(prompt("Enter a number"))
+// for (let j = 1; j <= num; j++) {
+//     const randomNum = Math.round(Math.random() * 100)
+//     console.log(`${j}. random number: ${randomNum}`)
+//}
+// **************************************************
+// const num = +prompt("enter a number")
+// for (let i = 1; i <= num; i++){
+//     const rasgele = Math.round(Math.random() * 100)
+//     console.log(`${i}. rasgele sayı ${rasgele}`); 
+// }
+// **************************************************
+// do {
+//     let avg = 0
+//     let midterm = Number(prompt("your midterm grade:"))
+//     let final = Number(prompt("your final grade:"))
+//     avg = midterm * 0.4 + final * 0.6
+//     console.log(`Your Score is ${avg}`)
+//     again = prompt("Do you want to continue(e/E)?")
+//   } while (again === "e" || again === "E")
+//   console.log("See you later. Bye")
+// **************************************************
+// function yazdır(){
+//     console.log("hello");
+// }
+// yazdır()
+// **************************************************
+// function topla (n1,n2){
+//     console.log(n1 + n2);
+// }
+
+// topla(5,4)
+// topla(11,52)
+// **************************************************
+// function isim(firstname, lastname){
+//     console.log(`hi ${firstname} ${lastname}`);
+// }
+// isim("hamza", "öztürk")
+// **************************************************
+// const name = prompt("your name:")
+// const surname = prompt("your surname:")
+// isim(name, surname)
+
+// **************************************************
+// function yas(name, yob){
+//     const age = new Date().getFullYear() - yob
+//     console.log(`${name}'s age ${age}`);
+// }
+// yas("elif", 2000)
+// **************************************************
+// function oddoreven(num){
+//     return num % 2 ? "odd" : "even"
+// }
+
+// const number = +prompt("please enter a number")
+// const oddeven = oddoreven(number)
+// console.log(`${number} is ${oddeven}`);
+// **************************************************
+// function tekcift(sayi){
+//     if(sayi % 2 ===0){
+//         return "cift"
+//     }else{
+//         return "tek"
+//     }
+// }
+
+// const number = +prompt("please enter a number")
+// const num = tekcift(number)
+// console.log(`${number} is ${num}`);
+
+// const topla = function(num1, num2){
+//     return num1 + num2
+// }
+
+
+// let tekcift = function(number){
+//     return number % 2 === 0 ? "cift" : "tek"
+// }
+
+// console.log(tekcift(5));
+// **************************************************
+// let findbiggest = function(n1, n2, n3 = 0){
+//     let biggest = n1;
+//     if(n2 >= biggest){
+//         biggest = n2
+//     }
+//     if(n3 >= biggest){
+//         biggest = n3
+//     }
+
+//     return biggest
+// }
+
+// console.log(`the biggest ${findbiggest(4, 7, 20)}`);
+// **************************************************
 
