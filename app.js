@@ -309,3 +309,133 @@
 // console.log(`the biggest ${findbiggest(4, 7, 20)}`);
 // **************************************************
 
+
+// const topla = (a,b) => a + b ;
+// console.log(topla(4,5));
+// **************************************************
+
+// const h = +prompt("h:")
+// const r = +prompt("r:")
+// const volume = (r,h) => Math.PI * r * r * h
+// console.log(`${volume(r,h)}`);
+
+// **************************************************
+
+// const taban = +prompt("taban:")
+// const yukseklik = +prompt("yükseklik:")
+
+// const üçgen = (taban,yukseklik) => (taban * yukseklik) / 2;
+// console.log(`${üçgen(taban,yukseklik)}`);
+// **************************************************
+
+// const yashesapla = (dogumtarihi) => 2023 - dogumtarihi;
+// console.log(yashesapla(2001)); //22
+// **************************************************
+
+
+// let str = "this is a string"
+// console.log(str.length); //16
+// **************************************************
+
+
+// let str = "hello world"
+// console.log(str[0]); //h
+// console.log(str[str.length-1]); //d
+// **************************************************
+
+
+// for(i = 0; i<str.length; i++){
+//     console.log(str[i]);
+// }
+// **************************************************
+
+
+// for(i = str.length-1; i>= 0; i--){
+//     console.log(str[i]);
+// }
+// **************************************************
+
+
+// let str = "clarusway"
+// console.log(str.slice(1,5)); //laru
+
+// **************************************************
+
+// let str1 = "full"
+// let str2 = "stack"
+// let str3 = "clarusway"
+// const result = str1.concat(str2, " ", str3)
+// console.log(result);
+
+// **************************************************
+
+// let control = `hamza`
+// console.log(control.includes(`a`)); //true
+
+// **************************************************
+
+// let control = `hamza`
+// console.log(control.indexOf(`a`));
+
+// **************************************************
+
+// let str = "benim arabam kırmızı"
+// console.log(str.replace("kırmızı" , "yeşil")); //benim arabam yeşil
+
+// **************************************************
+
+// let str = "benim adım hamza"
+// console.log(str.split());
+
+// **************************************************
+
+// const names = ["hamza", "enes","mehmet"]
+// console.log(names);
+// console.log(names.length);
+
+// **************************************************
+
+// const numbers = new Array(1,2,3)
+// console.log(numbers);
+
+// **************************************************
+
+// const names = ["hamza", "enes","mehmet"]
+// const mehmet = names[0]
+// console.log(mehmet);
+// console.log(names.at(-1));
+
+// **************************************************
+
+// const cars = ["bmw", "mercedes", "fiat"]
+// console.log(cars.pop());
+// console.log(cars);
+// console.log(cars.push("hyundai"));
+// console.log(cars);
+// console.log(cars.unshift("togg"));
+// console.log(cars);
+// console.log(cars.shift());
+// console.log(cars);
+// cars.splice(1,0,"vw")
+// console.log(cars);
+
+// const numbers = [3, "5", "4", "four"]
+// console.log(numbers.includes(5));
+// console.log(numbers.includes(3));
+// console.log(numbers.indexOf(3));
+// console.log(numbers.indexOf(8));
+
+// const num = numbers.join(".")
+// console.log(num);
+// console.log(numbers.toString());
+
+let data = [3,110,4,8,55]
+let sum = 0
+// data = data.sort((a,b) => b-a).join(" ")
+// console.log(data);
+
+for(let i = 0; i < data.length; i++) {
+    sum += data[i]
+}
+console.log(sum / data.length);
+
