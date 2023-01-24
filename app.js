@@ -429,13 +429,112 @@
 // console.log(num);
 // console.log(numbers.toString());
 
-let data = [3,110,4,8,55]
-let sum = 0
+// let data = [3,110,4,8,55]
+// let sum = 0
 // data = data.sort((a,b) => b-a).join(" ")
 // console.log(data);
 
-for(let i = 0; i < data.length; i++) {
-    sum += data[i]
-}
-console.log(sum / data.length);
+// for(let i = 0; i < data.length; i++) {
+//     sum += data[i]
+// }
+// console.log(sum / data.length);
+
+// const arr = [-5,15,22,-4,45,78]
+
+// let negatives = []
+// let positives = []
+// for(let j = 0; j < arr.length ; j++) {
+//     if(arr[j] < 0){
+//         negatives.push(arr[j])
+//     }else {
+//         positives.push(arr[j])
+//     }
+// }
+
+// console.log(negatives);
+// console.log(positives);
+
+// const students = ["ahmet","mehmet", "ismet", "ahmet", "can","mehmet","cem"]
+
+// const findstudents = (name) => {
+//     let counter = 0
+//     for( let i in students){
+//     if(name.toLowerCase() === students[i]){
+//         counter++
+//      }
+//     }
+//     if(counter === 0){
+//         return `${name} can not be found`
+//     }else{
+//         return `${name} found ${counter} times`
+//     }
+// }
+
+// console.log(findstudents("mehmet"));
+// console.log(findstudents("feyza"));
+
+
+
+// let students = ["ali", "ayşe", "ahmet"]
+// students.forEach(yazdır);
+//     function yazdır(v){
+//         console.log(v);
+//     }
+
+
+// const prices = [100,200,50,40]
+// prices.forEach((price) => console.log(price))
+
+// let names = ["mustafa","murat","ahmet", "mustafa", "ayşe","canan"]
+// const upperNames = names.map((n) => n.toLocaleUpperCase())
+// console.log(upperNames);
+
+// const obj = {
+//     name: "hamza",
+//     job:   "developer",
+//     age: "22",
+// }
+
+// console.log(obj.name);
+// console.log(obj.age);
+
+// const people = {
+//     person1:{
+//         name: "steve" ,
+//         surname: "jobs",
+//         dob: "1980",
+//         salary: "100000",        
+//     },
+//     person2: {
+//         name:"mark",
+//         surname: "zuckerburg",
+//         dob:"1990",
+//         salary:"90000",
+//     },
+//     person3:{
+//         name: "hamza",
+//         surname: "ozturk",
+//         dob:"2001",
+//         salary:"0",
+//     },
+// }
+
+// console.log(people.person3.dob);
+
+//  for(let person in people ){
+//      console.log(people[person].name);
+//  }
+
+// console.log(Object.keys(people));
+// console.log(Object.values(people));
+// console.log(Object.entries(people));
+
+// const myheader = document.getElementById("header")
+// console.log(myheader);
+// myheader.style.color = "blue"
+// myheader.style.backgroundColor = "yellow"
+
+
+// const tag = document.getElementsByTagName("header")
+// console.log(tag[0]);
 
